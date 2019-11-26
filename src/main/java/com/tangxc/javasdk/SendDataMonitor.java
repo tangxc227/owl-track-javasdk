@@ -51,7 +51,7 @@ public class SendDataMonitor {
                         }
                     });
                     // 测试的时候，不设置为守护模式
-                    // thread.setDaemon(true);
+                     thread.setDaemon(true);
                     thread.start();
                 }
             }
